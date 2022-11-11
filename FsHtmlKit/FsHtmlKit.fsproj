@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>FsHtmlKit</PackageId>
+    <Version>0.0.3</Version>
+    <Authors>Anthony Harris</Authors>
+    <RepositoryUrl>https://github.com/harrisaoz/FsHtmlKit</RepositoryUrl>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FsCombinators" Version="0.6.2" />
+    <PackageReference Include="FSharp.Data" Version="4.2.8" />
+    <PackageReference Update="FSharp.Core" Version="4.7.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Parse.fs" />
+    <Compile Include="Enumeration.fs" />
+    <Compile Include="HtmlRules.fs" />
+    <Compile Include="BufferManipulation.fs" />
+    <Compile Include="AsPlainText.fs" />
+    <Compile Include="StateMachine.fs" />
+    <Compile Include="Html2PlainText.fs" />
+  </ItemGroup>
+</Project>

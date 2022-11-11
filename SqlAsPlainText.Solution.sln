@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SqlAsPlainText", "SqlAsPlainText\SqlAsPlainText.fsproj", "{3894B9FD-04A0-4A63-ABAC-D7A9AF67CBCD}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SqlAsPlainText.Spec", "SqlAsPlainText.Spec\SqlAsPlainText.Spec.fsproj", "{B36483F2-F664-4BCA-B1BD-2FE077A9C7ED}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsHtmlKit", "FsHtmlKit\FsHtmlKit.fsproj", "{6557AA3C-5EE9-41D7-9FE1-7205583C85D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3894B9FD-04A0-4A63-ABAC-D7A9AF67CBCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3894B9FD-04A0-4A63-ABAC-D7A9AF67CBCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3894B9FD-04A0-4A63-ABAC-D7A9AF67CBCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3894B9FD-04A0-4A63-ABAC-D7A9AF67CBCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B36483F2-F664-4BCA-B1BD-2FE077A9C7ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36483F2-F664-4BCA-B1BD-2FE077A9C7ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36483F2-F664-4BCA-B1BD-2FE077A9C7ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36483F2-F664-4BCA-B1BD-2FE077A9C7ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6557AA3C-5EE9-41D7-9FE1-7205583C85D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6557AA3C-5EE9-41D7-9FE1-7205583C85D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6557AA3C-5EE9-41D7-9FE1-7205583C85D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6557AA3C-5EE9-41D7-9FE1-7205583C85D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
