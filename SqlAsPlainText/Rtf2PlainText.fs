@@ -1,5 +1,10 @@
 ﻿module Rtf2PlainText
 
+/// Attempt to extract plain text content from the provided document text,
+/// assuming that the input document text is in Rich Text Format.
+/// If the extraction fails, then None is returned.
+/// If the extraction succeeds, then Some 'plainText' is returned, where
+/// plainText is the extracted plain text.
 let tryExtractPlainText (richText: string) =
     let box = new System.Windows.Forms.RichTextBox()
     try
