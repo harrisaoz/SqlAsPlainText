@@ -31,7 +31,7 @@ This solution can only be deployed to SQL Server running on Windows, for two rea
 # Target Framework (Rationale)
 
 The .net framework version 4.8 is targeted in order to facilitate use in the MsSqlServer CLR - albeit unsupported due to
-all the dependencies being unsupported in the SQL Server CLR.
+all the dependencies being **unsupported** in the SQL Server CLR.
 
 # Build
 
@@ -41,8 +41,7 @@ dotnet build -c Release
 
 # Deployment to MS SQL Server CLR
 
-In order to create an assembly in Sql Server for a derivative library, the following DLL dependencies must be loaded as
-assemblies:
+In order to create the assembly in Sql Server, the following DLL dependencies must be loaded as assemblies:
 
 - .Net Framework libraries:
   - System.Windows.Forms
