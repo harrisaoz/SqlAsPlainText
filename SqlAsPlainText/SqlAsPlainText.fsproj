@@ -1,22 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net48</TargetFramework>
-    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
-    <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <UseWindowsForms>true</UseWindowsForms>
-  </PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>net48</TargetFramework>
+        <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <UseWindowsForms>true</UseWindowsForms>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Include="Rtf2PlainText.fs" />
-    <Compile Include="SqlAsPlainText.fs" />
-  </ItemGroup>
+    <ItemGroup>
+        <Compile Include="Rtf2PlainText.fs"/>
+        <Compile Include="SqlAsPlainText.fs"/>
+    </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Update="FSharp.Core" Version="4.7.2" />
-    <PackageReference Include="FsHtmlKit" Version="0.0.2" />
-  </ItemGroup>
+    <ItemGroup>
+        <PackageReference Update="FSharp.Core" Version="4.7.2"/>
+        <PackageReference Include="FsHtmlKit" Version="0.0.2"/>
+    </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\FsHtmlKit\FsHtmlKit.fsproj" />
-  </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\FsHtmlKit\FsHtmlKit.fsproj"/>
+    </ItemGroup>
 </Project>
