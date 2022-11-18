@@ -1,3 +1,22 @@
+# Important: Note from the author
+
+This project is a lesson in taking seriously any claims that a scenario is "unsupported".  While the approach seems to
+work at first, it can fail inconsistently at runtime, reporting the following during execution of the asPlainText
+function:
+
+```
+A .NET Framework error occurred during execution of user-defined routine or aggregate "asPlainText":
+System.ComponentModel.Win32Exception: Error creating window handle.
+...
+at System.Windows.Forms.NativeWindow.CreateHandle(CreateParams cp)
+...
+```
+
+While there may be some workaround to make this more reliable, I don't intend to invest the time in tracking down
+such a workaround - my goals can be satisfied using tools external to the database.  This also frees any upstream
+libraries from maintaining inconvenient dependency definitions which are only relevant to downstream use in the
+SQL Server CLR.
+
 # Purpose
 
 Facilitate extraction of plain text from HTML and Rich Text Format documents stored in a Microsoft SQL Server database.

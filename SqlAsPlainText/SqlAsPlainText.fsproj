@@ -1,9 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <TargetFramework>net48</TargetFramework>
+        <PackageId>SqlAsPlainText</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>Anthony Harris</Authors>
+        <RepositoryUrl>https://github.com/harrisaoz/SqlAsPlainText</RepositoryUrl>
         <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
-        <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <UseWindowsForms>true</UseWindowsForms>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
     </PropertyGroup>
 
     <ItemGroup>
@@ -13,7 +17,6 @@
 
     <ItemGroup>
         <PackageReference Update="FSharp.Core" Version="4.7.2"/>
-        <PackageReference Include="FsHtmlKit" Version="0.0.2"/>
     </ItemGroup>
 
     <ItemGroup>
